@@ -1,0 +1,30 @@
+{
+  "name": "apexlegendstracker",
+  "version": "1.0.0",
+  "description": "Track stas for Apex Legends",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattpettenato/apexlegendstracker.git"
+  },
+  "author": "Matt Pettenato",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattpettenato/apexlegendstracker/issues"
+  },
+  "homepage": "https://github.com/mattpettenato/apexlegendstracker#readme",
+  "dependencies": {
+    "concurrently": "^8.2.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
